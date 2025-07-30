@@ -1,0 +1,39 @@
+ body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+
+header, footer {
+  background: #333;
+  color: white;
+  padding: 16px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 16px;
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 32px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px; /* adds space between elements */
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
