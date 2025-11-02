@@ -37,3 +37,25 @@ form button {
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
+/* --- Digital Clock Project --- */
+.project {
+  margin: 20px auto;
+  text-align: center;
+}
+
+.btn {
+  display: inline-block;
+  background: linear-gradient(135deg, pink, purple);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  background: linear-gradient(135deg, purple, pink);
+}
